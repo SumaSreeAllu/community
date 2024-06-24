@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.top > * {
+  margin-left: 40px;
+}
+
+.login,
+.signup {
+  border-radius: 40px;
+  background-color: white;
+  padding: 9px 20px;
+  font-size: 15px;
+}
+
+.login {
+  border: 2px solid rgba(255, 165, 0, 0.5);
+}
+
+.signup {
+  border: 2px solid rgba(96, 76, 195, 0.5);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(70vh - 120px);
+  width: 100%;
+}
+.main span {
+  font-size: 20px;
+  
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  width: auto;
+  padding: 5px;
+  background-color: white;
+}
+
+.searchbar {
+  width: 300px;
+  height: 15px;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  background-color: transparent;
+  outline: none;
+}
+
+.bar > svg {
+  font-size: 20px;
+  color: black;
+}
+.main h1 {
+  margin-top: 25px; /* Adjust margin-top to decrease gap */
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 55px; /* Adjust font-size of h1 as needed */
+}
+
+.main p {
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px; /* Adjust font-size of paragraph as needed */
+}
