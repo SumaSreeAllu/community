@@ -28,12 +28,12 @@ const Info = () => {
           <Button endIcon={<AiOutlinePlusCircle style={{color:'black'}}/>}style={{color:'black'}} >Create a Community</Button>
         </div>      
       </div>
-      <div className='content2'>
-        <div className='con2'>
-          <h1>Join Your Community</h1>
+      <div className='content2'>       
           <div className='button2'>
           <Button endIcon={<AiOutlinePlusCircle style={{color:'black'}}/>}style={{color:'black'}} >Create a Community</Button>
         </div> 
+        <div className='con2'>
+        <h1>Join Your Community</h1>
         <span>Joining a new community not only helps you connect with like-minded individuals and participate in shared interests or activities but 
           also provides opportunities for networking, gaining new perspectives, and contributing to collective goals and initiatives. </span>
         </div>
